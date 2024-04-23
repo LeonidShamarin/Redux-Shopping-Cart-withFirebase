@@ -15,6 +15,7 @@ function App() {
 
   const cart = useSelector((state) => state.cart);
   const notification = useSelector((state) => state.ui.notification);
+  
   const [notificationVisible, setNotificationVisible] = useState(false);
 
   useEffect(() => {
